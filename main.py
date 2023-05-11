@@ -48,7 +48,7 @@ def title():
     global success, failed
     while True:
         os.system(f"title Richup.io botter by xKian ^| Code: {gamecode} ^| Success: {str(success)} Failed: {str(failed)}")
-        print("[+] Success: "+str(success)+" Failed: "+str(failed), end="\r")
+        print(f"[+] Success: {str(success)} Failed: {str(failed)}", end="\r")
         time.sleep(0.5)
 
 def main():
